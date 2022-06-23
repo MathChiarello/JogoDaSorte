@@ -1,0 +1,11 @@
+// Teste sua sorte:
+
+fun main() {
+    
+    val bingo = listOf(8,6,2,27,12)
+    var numero = (1..30).random()
+    
+    println(numero)
+    println(numero in bingo)
+
+}
